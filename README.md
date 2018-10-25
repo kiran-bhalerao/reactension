@@ -1,13 +1,14 @@
-# reactension README
+# Reactension
+My own Snippets for reactJS.
 
-This is the README for your extension "reactension". After writing up a brief description, we recommend including the following sections.
+## Features
+- There are some usefull snippets for reactjs and much more will come soon.
 
-## Release Notes
+### Purpose
+To avoid boilerplate code
 
-Users appreciate release notes as you update your extension.
+## Contribution
+If you want to expand this package, file an issue or a PR.
 
-### 1.0.0
-
-Initial release of Reactension snippet extension.
-
-
+## MIT License
+Kiran bhalerao
