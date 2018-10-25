@@ -4,6 +4,11 @@
     "description": "My own set of snippets for reactJS",
     "version": "1.0.0",
     "publisher": "kiran",
+    "repository": {
+        "type" : "git",
+        "url": "https://github.com/kiranbhalerao123/reactension"
+    },
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.28.0"
     },
