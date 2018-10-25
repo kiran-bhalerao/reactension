@@ -1,0 +1,21 @@
+{
+    "name": "reactension",
+    "displayName": "reactension",
+    "description": "My own set of snippets for reactJS",
+    "version": "1.0.0",
+    "publisher": "kiran",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
