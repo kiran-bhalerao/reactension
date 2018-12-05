@@ -73,7 +73,7 @@ export default (state = INITAIL_STATE, acion) => {
     default:
       return state;
   }
-};
+}
 ```
 - frncom
 ```
@@ -101,7 +101,6 @@ const styles = StyleSheet.create({
   }
 });
 ```
-};
 
 
 ## Contribution
