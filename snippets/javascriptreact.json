@@ -68,7 +68,7 @@
     "body": [
       "const INITAIL_STATE = {};",
       "",
-      "export default (state = INITAIL_STATE, acion) => {",
+      "export default (state = INITAIL_STATE, action) => {",
       "  switch (action.type) {",
       "    default:",
       "      return state;",
