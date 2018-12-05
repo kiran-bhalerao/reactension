@@ -67,7 +67,6 @@ class $ extends Component {
 - reducer
 ```
 const INITAIL_STATE = {};
-
 export default (state = INITAIL_STATE, acion) => {
   switch (action.type) {
     default:
@@ -79,7 +78,6 @@ export default (state = INITAIL_STATE, acion) => {
 ```
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-
 class ex extends React.Component {
   render() {
     return (
@@ -89,9 +87,7 @@ class ex extends React.Component {
     );
   }
 }
-
 export default ex;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
