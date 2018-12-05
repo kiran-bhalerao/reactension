@@ -2,7 +2,7 @@
     "name": "reactension",
     "displayName": "reactension",
     "description": "My own set of snippets for reactJS",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "kiran",
     "repository": {
         "type" : "git",

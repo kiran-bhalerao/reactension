@@ -8,5 +8,5 @@ All notable changes to the "reactension" extension will be documented in this fi
 - added nodejs support
 - fixed some missing documentation problems.
 
-## [1.0.2]
+## [1.0.3]
 - minor bug fixed
