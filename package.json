@@ -2,7 +2,7 @@
     "name": "reactension",
     "displayName": "reactension",
     "description": "My own set of snippets for reactJS",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "kiran",
     "repository": {
         "type" : "git",
@@ -19,7 +19,11 @@
         "snippets": [
             {
                 "language": "javascriptreact",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/javascriptreact.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
             }
         ]
     }

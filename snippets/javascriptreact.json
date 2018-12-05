@@ -1,0 +1,109 @@
+{
+  "Arrow Function": {
+    "prefix": "arr",
+    "body": ["const ${1:funcName} = (props) => {", "$2", "}"],
+    "description": "Use Arrow Function !"
+  },
+  "Return Function": {
+    "prefix": "ret",
+    "body": "return $1;",
+    "description": "Use Return Function !"
+  },
+  "Export Default": {
+    "prefix": "expo",
+    "body": "export default ${1:${TM_FILENAME_BASE}};",
+    "description": "Use Export Default !"
+  },
+  "Render Function": {
+    "prefix": "rend",
+    "body": ["render() {", "return(", "$1", ");", "}"],
+    "description": "Use Render Function !"
+  },
+  "Full Class Component": {
+    "prefix": "frcom",
+    "body": [
+      "import React, { Component } from 'react';",
+      "class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "  render() {",
+      "    return <div>This is ${1:${TM_FILENAME_BASE}} component.</div>;",
+      "  }",
+      "}",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "full Class Component !"
+  },
+  "Class Component": {
+    "prefix": "rcom",
+    "body": [
+      "class ${1:${TM_FILENAME_BASE}} extends Component {",
+      "  render() {",
+      "    return <div>This is ${1:${TM_FILENAME_BASE}} component.</div>;",
+      "  }",
+      "}"
+    ],
+    "description": "Class Component !"
+  },
+  "Constructor": {
+    "prefix": "rcon",
+    "body": [
+      "constructor(props) {",
+      "  super(props);",
+      "  this.state = {};",
+      "}"
+    ],
+    "description": "Class Constructor !"
+  },
+  "Import Component from same directory": {
+    "prefix": "imp",
+    "body": ["import $1 from './$1'"],
+    "description": "Import Component !"
+  },
+  "Import Component from component directory": {
+    "prefix": "impc",
+    "body": ["import $1 from './components/$1'"],
+    "description": "Import Component component!"
+  },
+  "Reducers boilerplate": {
+    "prefix": "reducer",
+    "body": [
+      "const INITAIL_STATE = {};",
+      "",
+      "export default (state = INITAIL_STATE, acion) => {",
+      "  switch (action.type) {",
+      "    default:",
+      "      return state;",
+      "  }",
+      "};"
+    ],
+    "description": "Create reducer!"
+  },
+  "React Native compoennt.": {
+    "prefix": "frncom",
+    "body": [
+      "import React from \"react\";",
+      "import { StyleSheet, Text, View } from \"react-native\";",
+      "",
+      "class ${1:${TM_FILENAME_BASE}} extends React.Component {",
+      "  render() {",
+      "    return (",
+      "      <View style={styles.container}>",
+      "        <Text>This is ${1:${TM_FILENAME_BASE}} Component!</Text>",
+      "      </View>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};",
+      "",
+      "const styles = StyleSheet.create({",
+      "  container: {",
+      "    flex: 1,",
+      "    backgroundColor: \"#fff\",",
+      "    alignItems: \"center\",",
+      "    justifyContent: \"center\"",
+      "  }",
+      "});"
+    ],
+    "description": "Create React Native component!"
+  }
+}
