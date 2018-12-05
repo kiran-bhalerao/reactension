@@ -1,5 +1,5 @@
 # Reactension 😄
-My Handpick set of Snippets for Reactjs and Nodejs.
+Handpicked set of Snippets for Reactjs and Nodejs.
 
 ## Features
 - There are some usefull snippets for reactjs and much more will come soon.
